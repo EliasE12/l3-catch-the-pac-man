@@ -1,0 +1,13 @@
+#Nivel
+1
+#Radio PosX PosY Espera Direction Rebotes EstaDetenido
+50.0  70.0  80.0  20  RIGTH   0   false
+45.0  72.0  78.0  17  LEFT    2   false
+54.0  67.0  81.0  10  RIGTH   0   true
+65.0  76.0  78.0  24  TOP 5   false
+49.0  61.0  75.0  19  BUTTOM  0   false
+60.0  32.0  98.0  15  BUTTOM  3   true
+50.0  90.0  87.0  14  BUTTOM  0   true
+40.0  70.0  19.0  25  LEFT    1   false
+19.0  45.0  80.0  18  RIGTH   0   true
+70.0  70.0  76.0  21  RIGTH   0   false

@@ -1,0 +1,25 @@
+#Level
+3
+#Radio  posX    posY    espera  direction   rebound     esta detenido
+50  70  80  10  DERECHA 0   false
+50  70  80  10  IZQUIERDA 0   false
+50  70  80  10  ABAJO 0   false
+50  70  80  10  DERECHA 0   false
+50  70  80  10  ARRIBA 0   false
+50  70  80  10  ABAJO 0   false
+50  70  80  10  IZQUIERDA 0   false
+50  70  80  10  DERECHA 0   false
+50  70  80  10  ABAJO 0   false
+50  70  80  10  DERECHA 0   false
+50  70  80  10  ARRIBA 0   true
+50  70  80  10  ABAJO 0   false
+50  70  80  10  IZQUIERDA 0   false
+50  70  80  10  DERECHA 0   false
+50  70  80  10  ABAJO 0   false
+50  70  80  10  DERECHA 0   false
+50  70  80  10  ARRIBA 0   true
+50  70  80  10  ABAJO 0   false
+50  70  80  10  DERECHA 0   false
+50  70  80  10  ARRIBA 0   false
+50  70  80  10  ABAJO 0   false
+50  70  80  10  IZQUIERDA 0   false

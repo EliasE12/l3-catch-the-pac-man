@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="523.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.CatchPacManController">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="Archivo">
+          <items>
+            <MenuItem fx:id="miCargarJuego" mnemonicParsing="false" onAction="#controlMiCargarNivel" text="Cargar Nivel" />
+            <MenuItem fx:id="miGuardarJuego" mnemonicParsing="false" onAction="#controlMiGuardarJuego" text="Guardar Juego" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="miSalir" mnemonicParsing="false" onAction="#controlMiSalir" text="Salir" />
+          </items>
+        </Menu>
+<Menu mnemonicParsing="false" text="Ver">
+<items>
+  <MenuItem fx:id="miMejoresPuntajes" mnemonicParsing="false" onAction="#controlMiMejoresPuntajes" text="Mejores Puntajes" />
+  <SeparatorMenuItem mnemonicParsing="false" />
+  <MenuItem fx:id="miAcercaJuego" mnemonicParsing="false" onAction="#controlMiAcercaJuego" text="Acerca del Juego" />
+</items>
+</Menu>
+        </menus>
+        </MenuBar>
+      <Pane fx:id="apPane" />
+        </children>
+        </VBox>
